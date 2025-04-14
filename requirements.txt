@@ -1,0 +1,14 @@
+# requirements.txt
+# Dependencias Python para el proyecto
+
+# Necesario para ejecutar PySpark localmente o enviar jobs
+# La versión debe ser compatible con tu instalación de Spark
+pyspark>=3.0.0
+
+# Necesario para el script productor de Kafka
+kafka-python>=2.0.0
+
+# Otras librerías útiles (opcional, si haces más análisis/visualización fuera de Spark)
+# pandas
+# matplotlib
+# seaborn
